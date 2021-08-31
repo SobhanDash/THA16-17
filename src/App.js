@@ -13,11 +13,14 @@ function Card({ id, title, cal }) {
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        {data.map((item) => {
-          let { id, title, cal } = item;
-          return <Card key={id} title={title} cal={cal} />;
-        })}
+      <div className="main">
+        <h1>Calories Read Only</h1>
+        <div className="container">
+          {data.map((item) => {
+            let { id, title, cal } = item;
+            return <Card key={id} title={title} cal={cal} />;
+          })}
+        </div>
       </div>
     </div>
   );

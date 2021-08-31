@@ -25,7 +25,7 @@ export default [
     cal: 200
   },
   {
-    id: 1,
+    id: 6,
     title: "Pani Puri",
     cal: 20
   }
